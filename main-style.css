@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0; 
+}
+
+.container {
+    font-family: monospace;
+    color: azure;
+    padding: 1em;
+}
+
+/* Изменения для медиа-запросов */
+@media (max-width: 480px) {
+    .container {
+        font-size: 3rem; /* Уменьшенный размер шрифта */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 4rem; 
+    }
+}
+
+@media (min-width: 768px) { 
+    .container {
+        font-size: 2rem;
+    }
+}
