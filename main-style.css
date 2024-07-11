@@ -4,7 +4,7 @@ body {
 
 .main-container {
     width: 100%;
-    min-height: 10%;  
+    height: 10%;  
     background-color: black;
     display: flex;
     justify-content: center;
