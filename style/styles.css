@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.font-site {
+    width: 100%;
+    height: 100%;
+    background-color: #beb3a0;
+    position: fixed;
+}
+
+.container-line {
+   display: flex;
+   width: 100%;
+   height: 100px;
+   background-color: #7d786f;
+   box-shadow: inset  0px 0px 1px rgba(0, 0, 0, 0.5);
+   justify-content: right;
+   align-items: center;
+}
+
+#on-register-button {
+    width: 170px;
+    height: 50px;
+    margin: 30px;
+
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    opacity: 0.7;    
+    transition: background-color 0.3s ease;
+
+    font-size: 150%;
+    font-family: monospace;
+    text-align: center;
+}
+
+#on-register-button:hover {
+   background-color: #232323;
+   
+}
