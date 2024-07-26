@@ -1,0 +1,45 @@
+#main {
+    background-color: rgb(31, 75, 119);
+}
+
+.main-container-menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+#text-logo {  /*  Стиль  для  внешнего  div  с  id="text-logo" */
+    text-align: center;
+    position: relative; 
+    left: 50%;
+
+    font-size: 5vh;
+    transform: translateX(-50%);
+
+    line-height: 0.1;
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 768px) {
+   #text-logo {
+    font-size: 4vh;
+   }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1024px){
+    #text-logo{
+       font-size: 4vh;     
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    #text-logo {
+        font-size: 7vh;
+    }
+    
+}
